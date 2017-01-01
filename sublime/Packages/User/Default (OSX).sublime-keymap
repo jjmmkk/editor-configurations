@@ -1,0 +1,74 @@
+[
+
+	// Unbind font size changing
+	// Change font size in User/Preferences.sublime-settings instead
+	{ "keys": ["super++"], "command": "set_setting" },
+	{ "keys": ["super+-"], "command": "set_setting" },
+
+	// Focus
+	{ "keys": ["ctrl+'"], "command": "focus_side_bar" },
+
+	// Tabs
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+	// Indenting
+	{ "keys": ["alt+super+right"], "command": "indent" },
+	{ "keys": ["alt+super+left"], "command": "unindent" },
+
+	{ "keys": ["alt+super+right"], "command": "reindent", "context":
+		[
+			{ "key": "setting.auto_indent", "operator": "equal", "operand": true },
+			{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+			{ "key": "preceding_text", "operator": "regex_match", "operand": "^$", "match_all": true },
+			{ "key": "following_text", "operator": "regex_match", "operand": "^$", "match_all": true }
+		]
+	},
+	{ "keys": ["alt+super+right"], "command": "indent", "context":
+		[
+			{ "key": "text", "operator": "regex_contains", "operand": "\n" }
+		]
+	},
+	{ "keys": ["alt+super+left"], "command": "unindent", "context":
+		[
+			{ "key": "setting.shift_tab_unindent", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["alt+super+left"], "command": "unindent", "context":
+		[
+			{ "key": "preceding_text", "operator": "regex_match", "operand": "^[\t ]*" }
+		]
+	},
+	{ "keys": ["alt+super+left"], "command": "unindent", "context":
+		[
+			{ "key": "text", "operator": "regex_contains", "operand": "\n" }
+		]
+	},
+	{ "keys": ["alt+super+down"], "command": "reindent" },
+	{ "keys": ["alt+super+up"], "command": "reindent", "args": {"single_line": false} },
+
+	// Prompts and such
+	{ "keys": ["super+m"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["super+p"], "command": "prompt_select_project" },
+	{ "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+	{ "keys": ["super+j"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+	// Line swap
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+
+	// Auto-complete
+	{ "keys": ["shift+space"], "command": "auto_complete" },
+	{ "keys": ["shift+space"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+
+	// Console
+	{ "keys": ["ctrl+c"], "command": "show_panel", "args": { "panel": "console", "toggle": true } }
+
+]

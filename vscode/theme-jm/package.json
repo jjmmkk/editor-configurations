@@ -1,0 +1,23 @@
+{
+    "name": "theme-jm",
+    "private": true,
+    "displayName": "JM",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "jonmorten",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "JM",
+                "uiTheme": "vs",
+                "path": "./themes/JM.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+	"installed_packages":
+	[
+		"Babel",
+		"Backbone.js",
+		"Backbone.Marionette",
+		"Color Highlighter",
+		"DocBlockr",
+		"Emmet",
+		"HTML5",
+		"Laravel Blade Highlighter",
+		"Package Control",
+		"PHP-Twig",
+		"Puppet",
+		"ReactJS",
+		"SASS Snippets",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SublimeLinter-ruby",
+		"SublimeLinter-shellcheck",
+		"Super Calculator",
+		"WordHighlight"
+	]
+}

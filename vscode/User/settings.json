@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "DejaVuSansMono",
+
+    "editor.fontSize": 15,
+
+    "editor.cursorBlinking": "solid",
+
+    "window.restoreFullscreen": true,
+
+    "telemetry.enableTelemetry": false,
+
+    "telemetry.enableCrashReporter": false,
+
+    "workbench.statusBar.visible": false
+}
