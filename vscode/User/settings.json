@@ -11,5 +11,11 @@
 
     "telemetry.enableCrashReporter": false,
 
-    "workbench.statusBar.visible": false
+    "workbench.statusBar.visible": true,
+
+    "workbench.experimental.colorCustomizations": {
+        "statusBarBackground" : "#555555",
+        "statusBarNoFolderBackground" : "#555555",
+        "statusBarDebuggingBackground": "#333333"
+    }
 }
