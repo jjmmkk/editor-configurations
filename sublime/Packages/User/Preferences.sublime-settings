@@ -16,8 +16,8 @@
 		"ez/var",
 		"ez/extension"
 	],
-	"font_face": "DejaVuSansMono",
-	"font_size": 15.0,
+	"font_face": "InputMono",
+	"font_size": 14.0,
 	"highlight_line": false,
 	"ignored_packages":
 	[
