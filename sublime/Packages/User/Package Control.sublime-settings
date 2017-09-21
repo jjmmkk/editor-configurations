@@ -22,6 +22,7 @@
 		"SublimeLinter-ruby",
 		"SublimeLinter-shellcheck",
 		"Super Calculator",
+		"Vue Syntax Highlight",
 		"WordHighlight"
 	]
 }
