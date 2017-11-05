@@ -13,5 +13,23 @@
         "key": "ctrl+shift+down",
         "command": "editor.action.insertCursorBelow",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+cmd+g",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
     }
 ]
