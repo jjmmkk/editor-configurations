@@ -5,6 +5,16 @@
 
     "editor.cursorBlinking": "solid",
 
+    "files.exclude": {
+        "**/.git": true,
+        "**/Pipfile.lock": true,
+        "**/.DS_Store": true,
+        "**/.expo": true,
+        "**/node_modules": true
+    },
+
+    "standard.usePackageJson": true,
+
     "window.restoreFullscreen": true,
 
     "telemetry.enableTelemetry": false,
