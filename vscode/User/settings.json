@@ -13,9 +13,9 @@
 
     "workbench.statusBar.visible": true,
 
-    "workbench.experimental.colorCustomizations": {
-        "statusBarBackground" : "#555555",
-        "statusBarNoFolderBackground" : "#555555",
-        "statusBarDebuggingBackground": "#333333"
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#555555",
+        "statusBar.noFolderBackground": "#555555",
+        "statusBar.debuggingBackground": "#333333"
     }
 }
