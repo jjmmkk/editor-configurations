@@ -1,15 +1,20 @@
 <scheme name="JM" version="1" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Input Mono" />
+  <option name="CONSOLE_FONT_NAME" value="Input Mono" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="LINE_NUMBERS_COLOR" value="969896" />
   </colors>
   <attributes>
     <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_TEXT">
+      <value>
+        <option name="FOREGROUND" value="000000" />
+      </value>
+    </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="a83e" />
@@ -117,7 +122,7 @@
     <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="0" />
+        <option name="FOREGROUND" value="000000" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
