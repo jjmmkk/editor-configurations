@@ -15,6 +15,7 @@ capaj.vscode-exports-autocomplete-0.5.4
 christian-kohler.npm-intellisense-1.3.0
 dbaeumer.vscode-eslint-1.4.3
 donjayamanne.python-0.7.0
+eamodio.gitlens-8.1.0
 esbenp.prettier-vscode-1.0.0
 gottfired.css2react-0.0.4
 ms-python.python-0.8.0
