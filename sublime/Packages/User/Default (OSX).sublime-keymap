@@ -7,6 +7,7 @@
 
 	// Focus
 	{ "keys": ["ctrl+'"], "command": "focus_side_bar" },
+	{ "keys": ["ctrl+§"], "command": "focus_side_bar" },
 
 	// Tabs
 	{ "keys": ["ctrl+tab"], "command": "next_view" },
