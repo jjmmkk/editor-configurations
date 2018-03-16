@@ -49,8 +49,7 @@
 
 	// Prompts and such
 	{ "keys": ["super+m"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
-	{ "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-	{ "keys": ["super+p"], "command": "prompt_select_project" },
+	{ "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 	{ "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 	{ "keys": ["super+j"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
