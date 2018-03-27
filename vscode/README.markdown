@@ -23,3 +23,12 @@ ms-vscode.cpptools-0.14.3
 octref.vetur-0.11.0
 xabikos.javascriptsnippets-1.5.0
 ```
+
+## Improve project tree
+
+Follow [these](https://gist.github.com/samdenty99/b96f4df576d05cb123248f8ebfa899b6) instructions.
+
+See also:
+
+* [Styles for light theme](https://gist.github.com/ogardiazabal/39f8d70b9dd5858a067c4b70bffb9b2e)
+* [Issue ub VS Code-repo](https://github.com/Microsoft/vscode/issues/17777)
