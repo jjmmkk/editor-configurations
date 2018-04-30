@@ -5,6 +5,12 @@
 
     "emmet.triggerExpansionOnTab": true,
 
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript"
+    ],
+
     "files.exclude": {
         "**/.git": true,
         "**/Pipfile.lock": true,
