@@ -90,4 +90,9 @@
         "command": "editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    }
 ]
