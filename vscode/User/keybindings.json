@@ -94,5 +94,14 @@
         "key": "cmd+b",
         "command": "editor.action.goToDeclaration",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "editor.action.sortLinesAscending",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "outline.focus"
     }
 ]
