@@ -1,6 +1,9 @@
 {
+    "breadcrumbs.enabled": true,
+
     "editor.fontFamily": "Input Mono",
     "editor.fontSize": 14,
+    "editor.lineHeight": 22,
     "editor.cursorBlinking": "solid",
 
     "emmet.triggerExpansionOnTab": true,
@@ -34,11 +37,13 @@
 
     "window.restoreFullscreen": true,
 
-    "workbench.colorTheme": "JM",
-    "workbench.statusBar.visible": true,
     "workbench.colorCustomizations": {
         "statusBar.background": "#555555",
         "statusBar.noFolderBackground": "#555555",
         "statusBar.debuggingBackground": "#333333"
-    }
+    },
+    "workbench.colorTheme": "JM",
+    "workbench.iconTheme": null,
+    "workbench.statusBar.visible": true,
+    "workbench.statusBar.feedback.visible": false
 }
