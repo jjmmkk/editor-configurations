@@ -1,9 +1,8 @@
 [
-
 	// Unbind font size changing
 	// Change font size in User/Preferences.sublime-settings instead
-	{ "keys": ["super++"], "command": "set_setting" },
-	{ "keys": ["super+-"], "command": "set_setting" },
+	{ "keys": ["super+equals"], "command": "set_setting" },
+	{ "keys": ["super+plus"], "command": "set_setting" },
 
 	// Focus
 	{ "keys": ["ctrl+'"], "command": "focus_side_bar" },
@@ -48,6 +47,9 @@
 	{ "keys": ["alt+super+down"], "command": "reindent" },
 	{ "keys": ["alt+super+up"], "command": "reindent", "args": {"single_line": false} },
 
+	// Sorting
+	{ "keys": ["ctrl+s"], "command": "sort_lines", "args": {"case_sensitive": false} },
+
 	// Prompts and such
 	{ "keys": ["super+m"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 	{ "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
@@ -59,8 +61,8 @@
 	{ "keys": ["alt+down"], "command": "swap_line_down" },
 
 	// Auto-complete
-	{ "keys": ["shift+space"], "command": "auto_complete" },
-	{ "keys": ["shift+space"], "command": "replace_completion_with_auto_complete", "context":
+	{ "keys": ["ctrl+space"], "command": "auto_complete" },
+	{ "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
 		[
 			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
 			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
@@ -70,5 +72,4 @@
 
 	// Console
 	{ "keys": ["ctrl+c"], "command": "show_panel", "args": { "panel": "console", "toggle": true } }
-
 ]

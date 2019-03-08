@@ -2,8 +2,6 @@
 	"installed_packages":
 	[
 		"Babel",
-		"Backbone.js",
-		"Backbone.Marionette",
 		"Color Highlighter",
 		"DocBlockr",
 		"Emmet",
@@ -22,7 +20,6 @@
 		"SublimeLinter-ruby",
 		"SublimeLinter-shellcheck",
 		"Super Calculator",
-		"Vue Syntax Highlight",
 		"WordHighlight"
 	]
 }

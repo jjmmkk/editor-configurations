@@ -8,4 +8,6 @@ Copy the contents of the directory **"Packages"** into the corresponding locatio
 
 Install [Package Control](https://sublime.wbond.net/installation) and make sure that the configured packages get installed.
 
+Install [Dracula](https://draculatheme.com/).
+
 Opt out of Sidebar Enhancements' data collection. [Read more](https://github.com/SideBarEnhancements-org/SideBarEnhancements/tree/158e804fe5b55fb773e5a0f792fb54d27a2a591e#data-collection).
