@@ -1,10 +1,10 @@
 {
     "breadcrumbs.enabled": true,
 
-    "editor.fontFamily": "Input Mono",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 22,
     "editor.cursorBlinking": "solid",
+    "editor.fontFamily": "Input Mono",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 24,
 
     "emmet.triggerExpansionOnTab": true,
 
@@ -22,7 +22,6 @@
         "**/node_modules": true
     },
 
-    "gitlens.gitExplorer.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
@@ -30,20 +29,18 @@
     "gitlens.blame.heatmap.location": "left",
     "gitlens.keymap": "alternate",
 
+    // Needed by Flow extension
+    "javascript.validate.enable": false,
+
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
 
-    "standard.usePackageJson": true,
-
     "window.restoreFullscreen": true,
+    "window.restoreWindows": "all",
 
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#555555",
-        "statusBar.noFolderBackground": "#555555",
-        "statusBar.debuggingBackground": "#333333"
-    },
-    "workbench.colorTheme": "JM",
+    // "workbench.colorTheme": "JM",
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": null,
     "workbench.statusBar.visible": true,
-    "workbench.statusBar.feedback.visible": false
+    "workbench.statusBar.feedback.visible": false,
 }
