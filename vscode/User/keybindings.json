@@ -5,10 +5,13 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+m",
-        "command": "editor.action.jumpToBracket",
-        "when": "editorTextFocus"
+        "key": "ctrl+shift+m",
+        "command": "-editor.action.toggleTabFocusMode"
     },
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.action.selectToBracket"
+      }
     {
         "key": "shift+cmd+d",
         "command": "editor.action.copyLinesDownAction",
