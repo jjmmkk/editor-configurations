@@ -11,7 +11,7 @@
     {
         "key": "ctrl+shift+m",
         "command": "editor.action.selectToBracket"
-      }
+    },
     {
         "key": "shift+cmd+d",
         "command": "editor.action.copyLinesDownAction",
