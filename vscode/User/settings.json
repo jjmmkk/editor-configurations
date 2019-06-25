@@ -5,6 +5,18 @@
     "editor.fontFamily": "Input Mono",
     "editor.fontSize": 15,
     "editor.lineHeight": 24,
+    "editor.tabSize": 2,
+
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
 
     "emmet.triggerExpansionOnTab": true,
 
