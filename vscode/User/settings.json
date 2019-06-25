@@ -32,7 +32,8 @@
         "**/.DS_Store": true,
         "**/.expo": true,
         "**/node_modules": true,
-        "**/.next": true
+        "**/.next": true,
+        "**/dist": true
     },
 
     "gitlens.codeLens.enabled": false,
