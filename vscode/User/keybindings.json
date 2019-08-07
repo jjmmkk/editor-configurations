@@ -111,6 +111,15 @@
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
         "key": "shift+cmd+b",
         "command": "references-view.find",
         "when": "editorHasReferenceProvider"
@@ -168,5 +177,14 @@
     {
         "key": "shift+cmd+2",
         "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-filesExplorer.findInFolder",
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "filesExplorer.findInFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     }
 ]
