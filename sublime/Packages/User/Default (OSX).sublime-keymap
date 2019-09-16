@@ -3,6 +3,7 @@
 	// Change font size in User/Preferences.sublime-settings instead
 	{ "keys": ["super+equals"], "command": "set_setting" },
 	{ "keys": ["super+plus"], "command": "set_setting" },
+	{ "keys": ["super+minus"], "command": "set_setting" },
 
 	// Focus
 	{ "keys": ["ctrl+'"], "command": "focus_side_bar" },
