@@ -8,14 +8,8 @@
     "editor.tabSize": 2,
 
     "editor.formatOnSave": false,
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "[typescript]": {
-        "editor.formatOnSave": true
-    },
-    "[typescriptreact]": {
-        "editor.formatOnSave": true
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
     },
 
     "emmet.triggerExpansionOnTab": true,
@@ -23,7 +17,8 @@
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        "typescript"
+        "typescript",
+        "vue"
     ],
 
     "files.exclude": {
