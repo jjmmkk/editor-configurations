@@ -46,6 +46,9 @@
     // Needed by Flow extension
     "javascript.validate.enable": false,
 
+    // Fixes autocomplete keybind on MacOS
+    "keyboard.dispatch": "keyCode",
+
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
 
